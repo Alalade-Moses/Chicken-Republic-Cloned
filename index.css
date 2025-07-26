@@ -1,0 +1,433 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* section1 style */
+
+.sec1{
+   background-image: url("./IMG/ChickenRepublic_HomePageBanner.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   
+}
+
+
+ .nav{
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    background-color:rgba(0,0,0,0.7);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+    width: 1400px;
+ }
+
+ .nlist{
+ list-style: none;
+ display: flex;
+ margin: auto;
+ gap: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ /* font-size: 20px; */
+ }
+
+  
+
+ .nav img{
+   background-color:#ff0000;
+   margin-left: 150px;
+   
+ }
+
+  .btns{
+    padding-top: 50px;
+    padding-right: 80px;
+  }
+ .btn1{
+   border: none;
+   color: #fff;
+   background-color: #ff0000;
+  width: 230px;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+ }
+ .btn1:hover{
+   background-color: yellow;
+   color: #ff0000;
+   
+ }
+
+ .btn2{
+   color:#ff0000;
+   background-color:#fff212;
+  width: 230px;
+  height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+ }
+ .btn2:hover{
+   background-color: #fff212;
+   color: #fff;
+ }
+
+ .font{
+  font-size:  22px;
+  padding-top: 30px ;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .theh{
+  color: #fff;
+  text-transform: uppercase;
+  padding-left: 150px;
+  padding-top: 200px;
+ }
+
+
+ /* section2 style */
+ .sec2{
+  background-color: #ff0000;
+ }
+
+ .order{
+  display: flex;
+  gap: 50px;
+  padding-left: 120px;
+  padding-top: 20px;
+ }
+
+ h6{
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .btn3{
+  color: #ff0000;
+  background-color: #fff212;
+  border: none;
+  padding: px;
+  border-radius: 20px;
+  width: 200px;
+  display: grid;
+  justify-self: center;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .btn3:hover{
+  background-color: #fff;
+  cursor: pointer;
+ }
+
+ .btn31{
+  padding-top: 20px;
+ }
+
+
+ /* section3 style */
+.sec3{
+  background-color: #fff212;
+
+}
+
+.sec31{
+  display: block;
+  justify-self: center;
+  padding: 30px;
+  animation-name: moses;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-duration: 12s;
+  animation-fill-mode: forwards;
+  z-index: -2;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec31 h1{
+  color: #ff0000;
+  padding-left: 140px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.sec31 img{
+  padding-top: 15px;
+ 
+}
+
+
+/* section4 style */
+.Sec4{
+  margin: 500px;
+  
+}
+.sec4 h1{
+  display: block;
+  justify-self: center;
+  color: #ff0000;
+  padding-top: 30px;
+  font-size: 50px;
+}
+.sec41{
+  /* justify-self: center; */
+  height: 200px;
+
+}
+
+.sec4 img{
+  height: 250px;
+  padding-top: 30px;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 50px;
+  padding-left: 90px;
+}
+
+
+/* section5 styles */
+
+.sec5{
+  background-color: #fff212;
+  
+
+}
+
+.sec51{
+  display: block;
+  justify-self: center;
+  padding: 30px;
+}
+.sec51 h1{
+  color: #ff0000;
+  padding-left: 140px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.sec51 img{
+  padding-top: 15px;
+}
+
+/* section6 styles */
+.sec6{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.sec61 img{
+ padding-left: 90px;
+ width: 500px;
+ padding: 70px 90px;
+}
+
+.sec611{
+  padding-top: 70px; 
+  padding-right: 100px;
+  width: 1000px;
+  padding-left: 60px;
+}
+.sec611 h2{
+  text-transform: uppercase;  
+  color: #ff0000; 
+  font-size: 40px;
+}
+.sec611 p{
+  text-align: justify;
+  line-height: 2.0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #808080;
+}
+
+span{
+  color: #000;
+  font-weight: bold;
+}
+
+
+/* section7 styles */
+
+.sec7{
+  background-color: #ffcc29;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec71 h1{
+  line-height: 1.5;
+  text-align: justify;
+  padding-left: 90px;
+  padding-top: 40px;
+  font-size: 50px;
+ color: #ff0000;
+}
+
+.sec711 img{
+  width: 600px;
+  padding: 50px;
+}
+
+.nspan{
+  color: #fff;
+}
+footer{
+  color: #fff;
+  background-color: #ff0000;
+  height: 40px;
+  padding-left: 80px;
+  font-weight: 400;
+  padding-top:  10px;
+}
+
+
+/* animation */
+
+
+@keyframes moses {
+  0%{
+    background-image: url("./IMG/BREAKFAST-COMBO-1.jpg");
+  }
+
+  25%{
+    background-image: url("./IMG/POT-LOVERS.jpg");
+  }
+
+  50%{
+    background-image: url("./IMG/REFUEL-DODO-MAX.jpg");
+  }
+  100%{
+    background-image: url("./IMG/REFUEL-MEAL-RnB.jpg");
+  }
+}
+
+
+
+
+/* ----------- Responsive Styles ----------- */
+
+@media (max-width: 1024px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .nlist {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .btns {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .theh {
+    padding-left: 50px;
+    font-size: 24px;
+  }
+
+  .order {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .sec6 {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .sec61 img {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .sec611 {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .sec7 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .sec711 img {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .sec71 h1 {
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .sec4 img {
+    width: 80%;
+    padding-left: 10%;
+    padding-bottom: 20px;
+  }
+
+  .sec51 img {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .sec31 h1 {
+    font-size: 28px;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn1, .btn2, .btn3 {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .sec31 {
+    height: auto;
+    padding: 20px;
+  }
+
+  .sec51 h1, .sec4 h1, .sec611 h2 {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+
+  footer {
+    font-size: 12px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .theh {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 150px;
+  }
+}
