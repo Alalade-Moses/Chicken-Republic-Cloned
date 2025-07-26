@@ -1,433 +1,310 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
- /* section1 style */
-
-.sec1{
-   background-image: url("./IMG/ChickenRepublic_HomePageBanner.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   height: 100vh;
-   
-}
-
-
- .nav{
-    display: flex;
-    gap: 15px;
-    margin: auto;
-    background-color:rgba(0,0,0,0.7);
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    position: fixed;
-    width: 1400px;
- }
-
- .nlist{
- list-style: none;
- display: flex;
- margin: auto;
- gap: 20px;
- font-family: Arial, Helvetica, sans-serif;
- font-weight: bold;
- /* font-size: 20px; */
- }
-
-  
-
- .nav img{
-   background-color:#ff0000;
-   margin-left: 150px;
-   
- }
-
-  .btns{
-    padding-top: 50px;
-    padding-right: 80px;
-  }
- .btn1{
-   border: none;
-   color: #fff;
-   background-color: #ff0000;
-  width: 230px;
-  height: 70px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  cursor: pointer;
- }
- .btn1:hover{
-   background-color: yellow;
-   color: #ff0000;
-   
- }
-
- .btn2{
-   color:#ff0000;
-   background-color:#fff212;
-  width: 230px;
-  height: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 900;
-  border: none;
-  cursor: pointer;
- }
- .btn2:hover{
-   background-color: #fff212;
-   color: #fff;
- }
-
- .font{
-  font-size:  22px;
-  padding-top: 30px ;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
- }
-
- .theh{
-  color: #fff;
-  text-transform: uppercase;
-  padding-left: 150px;
-  padding-top: 200px;
- }
-
-
- /* section2 style */
- .sec2{
-  background-color: #ff0000;
- }
-
- .order{
-  display: flex;
-  gap: 50px;
-  padding-left: 120px;
-  padding-top: 20px;
- }
-
- h6{
-  color: #fff;
-  text-transform: capitalize;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
- }
-
- .btn3{
-  color: #ff0000;
-  background-color: #fff212;
-  border: none;
-  padding: px;
-  border-radius: 20px;
-  width: 200px;
-  display: grid;
-  justify-self: center;
-  font-size: 30px;
-  font-weight: 900;
-  font-family: Arial, Helvetica, sans-serif;
-
- }
- .btn3:hover{
-  background-color: #fff;
-  cursor: pointer;
- }
-
- .btn31{
-  padding-top: 20px;
- }
-
-
- /* section3 style */
-.sec3{
-  background-color: #fff212;
-
-}
-
-.sec31{
-  display: block;
-  justify-self: center;
-  padding: 30px;
-  animation-name: moses;
-  animation-timing-function: ease-in;
-  animation-iteration-count: infinite;
-  animation-delay: 2s;
-  animation-duration: 12s;
-  animation-fill-mode: forwards;
-  z-index: -2;
-  height: 800px;
+/* Section 1 */
+.sec1 {
+  background-image: url("./IMG/ChickenRepublic_HomePageBanner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
-.sec31 h1{
-  color: #ff0000;
-  padding-left: 140px;
-  font-size: 40px;
-  font-weight: bold;
-}
-.sec31 img{
-  padding-top: 15px;
- 
-}
-
-
-/* section4 style */
-.Sec4{
-  margin: 500px;
-  
-}
-.sec4 h1{
-  display: block;
-  justify-self: center;
-  color: #ff0000;
-  padding-top: 30px;
-  font-size: 50px;
-}
-.sec41{
-  /* justify-self: center; */
-  height: 200px;
-
-}
-
-.sec4 img{
-  height: 250px;
-  padding-top: 30px;
-  justify-content: space-between;
-  gap: 50px;
-  margin-bottom: 50px;
-  padding-left: 90px;
-}
-
-
-/* section5 styles */
-
-.sec5{
-  background-color: #fff212;
-  
-
-}
-
-.sec51{
-  display: block;
-  justify-self: center;
-  padding: 30px;
-}
-.sec51 h1{
-  color: #ff0000;
-  padding-left: 140px;
-  font-size: 40px;
-  font-weight: bold;
-}
-.sec51 img{
-  padding-top: 15px;
-}
-
-/* section6 styles */
-.sec6{
+.nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
 }
 
-.sec61 img{
- padding-left: 90px;
- width: 500px;
- padding: 70px 90px;
+.nav img {
+  background-color: #ff0000;
+  height: 100px;
 }
 
-.sec611{
-  padding-top: 70px; 
-  padding-right: 100px;
-  width: 1000px;
-  padding-left: 60px;
+.nlist {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-weight: bold;
 }
-.sec611 h2{
-  text-transform: uppercase;  
-  color: #ff0000; 
-  font-size: 40px;
+
+.font {
+  font-size: 22px;
+  font-weight: bold;
 }
-.sec611 p{
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btn1, .btn2 {
+  border: none;
+  padding: 10px;
+  width: 180px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.btn1:hover {
+  background-color: yellow;
+  color: #ff0000;
+}
+
+.btn2 {
+  background-color: #fff212;
+  color: #ff0000;
+}
+
+.btn2:hover {
+  color: #fff;
+}
+
+.theh {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 200px 20px 0 20px;
+  font-size: 2rem;
+}
+
+/* Section 2 */
+.sec2 {
+  background-color: #ff0000;
+  padding: 20px;
+}
+
+.order {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.order div {
+  text-align: center;
+}
+
+h6 {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.btn3 {
+  color: #ff0000;
+  background-color: #fff212;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
+.btn3:hover {
+  background-color: #fff;
+}
+
+/* Section 3 */
+.sec3 {
+  background-color: #fff212;
+  padding: 30px 20px;
+}
+
+.sec31 {
+  text-align: center;
+  background-size: cover;
+  height: 400px;
+  animation: moses 12s infinite ease-in;
+}
+
+.sec31 h1 {
+  color: #ff0000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Section 4 */
+.sec4 {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.sec4 h1 {
+  color: #ff0000;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sec4 img {
+  width: 90%;
+  max-width: 400px;
+  margin: 10px auto;
+  display: block;
+}
+
+/* Section 5 */
+.sec5 {
+  background-color: #fff212;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.sec51 h1 {
+  color: #ff0000;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sec51 img {
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* Section 6 */
+.sec6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 20px;
+}
+
+.sec61 img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.sec611 {
+  max-width: 600px;
+}
+
+.sec611 h2 {
+  color: #ff0000;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.sec611 p {
   text-align: justify;
-  line-height: 2.0;
-  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
   color: #808080;
 }
 
-span{
-  color: #000;
+span {
   font-weight: bold;
+  color: #000;
 }
 
-
-/* section7 styles */
-
-.sec7{
+/* Section 7 */
+.sec7 {
   background-color: #ffcc29;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 20px;
 }
 
-.sec71 h1{
+.sec71 h1 {
+  color: #ff0000;
+  font-size: 2rem;
   line-height: 1.5;
-  text-align: justify;
-  padding-left: 90px;
-  padding-top: 40px;
-  font-size: 50px;
- color: #ff0000;
+  text-align: center;
 }
 
-.sec711 img{
-  width: 600px;
-  padding: 50px;
+.sec711 img {
+  width: 100%;
+  max-width: 600px;
 }
 
-.nspan{
+.nspan {
   color: #fff;
 }
-footer{
-  color: #fff;
+
+/* Footer */
+footer {
   background-color: #ff0000;
-  height: 40px;
-  padding-left: 80px;
-  font-weight: 400;
-  padding-top:  10px;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
 }
 
-
-/* animation */
-
-
+/* Animation */
 @keyframes moses {
-  0%{
-    background-image: url("./IMG/BREAKFAST-COMBO-1.jpg");
-  }
-
-  25%{
-    background-image: url("./IMG/POT-LOVERS.jpg");
-  }
-
-  50%{
-    background-image: url("./IMG/REFUEL-DODO-MAX.jpg");
-  }
-  100%{
-    background-image: url("./IMG/REFUEL-MEAL-RnB.jpg");
-  }
+  0% { background-image: url("./IMG/BREAKFAST-COMBO-1.jpg"); }
+  25% { background-image: url("./IMG/POT-LOVERS.jpg"); }
+  50% { background-image: url("./IMG/REFUEL-DODO-MAX.jpg"); }
+  100% { background-image: url("./IMG/REFUEL-MEAL-RnB.jpg"); }
 }
 
-
-
-
-/* ----------- Responsive Styles ----------- */
-
-@media (max-width: 1024px) {
-  .nav {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-    padding: 10px;
-  }
-
-  .nlist {
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 10px;
-    gap: 10px;
-  }
-
-  .btns {
-    padding: 10px;
-    text-align: center;
-  }
-
+/* Responsive Queries */
+@media (max-width: 768px) {
   .theh {
-    padding-left: 50px;
-    font-size: 24px;
+    font-size: 1.5rem;
+    padding-top: 150px;
   }
 
-  .order {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-  }
-
-  .sec6 {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-
-  .sec61 img {
-    width: 100%;
-    padding: 20px;
-  }
-
-  .sec611 {
+  .btn1, .btn2 {
     width: 90%;
-    padding: 20px;
   }
 
-  .sec7 {
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-
-  .sec711 img {
-    width: 100%;
-    padding: 20px;
+  .btn3 {
+    width: 90%;
+    font-size: 1rem;
   }
 
   .sec71 h1 {
-    padding: 20px;
-    text-align: center;
-    font-size: 32px;
+    font-size: 1.5rem;
   }
 
-  .sec4 img {
-    width: 80%;
-    padding-left: 10%;
-    padding-bottom: 20px;
-  }
-
-  .sec51 img {
-    width: 100%;
-    padding: 10px;
-  }
-
-  .sec31 h1 {
-    font-size: 28px;
-    padding: 20px;
-    text-align: center;
+  .sec31 h1,
+  .sec51 h1,
+  .sec4 h1,
+  .sec611 h2 {
+    font-size: 1.5rem;
   }
 }
 
-@media (max-width: 600px) {
-  .btn1, .btn2, .btn3 {
-    width: 90%;
-    font-size: 16px;
+@media (max-width: 480px) {
+  .nav {
+    flex-direction: column;
+    gap: 10px;
   }
 
-  .sec31 {
-    height: auto;
-    padding: 20px;
+  .nlist {
+    justify-content: center;
   }
 
-  .sec51 h1, .sec4 h1, .sec611 h2 {
-    font-size: 24px;
-    padding-left: 20px;
+  .sec71 h1 {
+    font-size: 1.2rem;
   }
 
-  footer {
-    font-size: 12px;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .theh {
-    font-size: 18px;
-    padding-left: 20px;
-    padding-top: 150px;
+  .sec4 img,
+  .sec711 img,
+  .sec61 img {
+    max-width: 100%;
   }
 }
